@@ -1,9 +1,8 @@
 package com.github.myutils;
 
+import com.github.myutils.math.MathUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @Author Dooby Kim

@@ -1,4 +1,4 @@
-package com.github.myutils;
+package com.github.myutils.math;
 
 /**
  * @Author Dooby Kim
