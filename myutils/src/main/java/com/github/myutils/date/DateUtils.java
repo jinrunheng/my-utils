@@ -14,12 +14,21 @@ import java.util.Locale;
 public class DateUtils {
 
     /**
-     * 获取当前时间
+     * 获取当前时间 年-月-日
      *
      * @return
      */
     public static String getDate() {
         return getDate("yyyy-MM-dd");
+    }
+
+    /**
+     * 获取当前时间 年-月-日 时:分:秒
+     *
+     * @return
+     */
+    public static String getDateTime() {
+        return getDate("yyyy-MM-dd HH:mm:ss");
     }
 
     /**
